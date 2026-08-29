@@ -3,10 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012666602E22B741001FD921 /* regexSearch.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666522E22B741001FD921 /* regexSearch.js */; };
+		012666612E22B741001FD921 /* WkbToWkt.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665D2E22B741001FD921 /* WkbToWkt.js */; };
+		012666622E22B741001FD921 /* CreateProjectGlossaryMarkdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666442E22B741001FD921 /* CreateProjectGlossaryMarkdown.js */; };
+		012666632E22B741001FD921 /* NewBoopScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666502E22B741001FD921 /* NewBoopScript.js */; };
+		012666642E22B741001FD921 /* WktToWkb.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665E2E22B741001FD921 /* WktToWkb.js */; };
+		012666652E22B741001FD921 /* JsObjectToJSON.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664C2E22B741001FD921 /* JsObjectToJSON.js */; };
+		012666662E22B741001FD921 /* generateHashtag.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666482E22B741001FD921 /* generateHashtag.js */; };
+		012666672E22B741001FD921 /* rgb2hex.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666542E22B741001FD921 /* rgb2hex.js */; };
+		012666682E22B741001FD921 /* JoinLinesWithComma.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664A2E22B741001FD921 /* JoinLinesWithComma.js */; };
+		012666692E22B741001FD921 /* toggleCamelHyphen.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666572E22B741001FD921 /* toggleCamelHyphen.js */; };
+		0126666A2E22B741001FD921 /* regexSub.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666532E22B741001FD921 /* regexSub.js */; };
+		0126666B2E22B741001FD921 /* toUnicode.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666582E22B741001FD921 /* toUnicode.js */; };
+		0126666C2E22B741001FD921 /* LineComparer.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664E2E22B741001FD921 /* LineComparer.js */; };
+		0126666D2E22B741001FD921 /* jsToPhp.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664D2E22B741001FD921 /* jsToPhp.js */; };
+		0126666E2E22B741001FD921 /* ShuffleCharacters.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666552E22B741001FD921 /* ShuffleCharacters.js */; };
+		0126666F2E22B741001FD921 /* DIGI2ASCII.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666462E22B741001FD921 /* DIGI2ASCII.js */; };
+		012666702E22B741001FD921 /* contrastingColor.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666422E22B741001FD921 /* contrastingColor.js */; };
+		012666712E22B741001FD921 /* tsvToJson.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665B2E22B741001FD921 /* tsvToJson.js */; };
+		012666722E22B741001FD921 /* TrimEnd.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666592E22B741001FD921 /* TrimEnd.js */; };
+		012666732E22B741001FD921 /* listToHTMLList.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664F2E22B741001FD921 /* listToHTMLList.js */; };
+		012666742E22B741001FD921 /* TimeToSecond.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666562E22B741001FD921 /* TimeToSecond.js */; };
+		012666752E22B741001FD921 /* JoinLinesWithSpace.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664B2E22B741001FD921 /* JoinLinesWithSpace.js */; };
+		012666762E22B741001FD921 /* CSVtoJSONheaderless.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666452E22B741001FD921 /* CSVtoJSONheaderless.js */; };
+		012666772E22B741001FD921 /* JoinLines.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666492E22B741001FD921 /* JoinLines.js */; };
+		012666782E22B741001FD921 /* convertToMarkdownTable.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666432E22B741001FD921 /* convertToMarkdownTable.js */; };
+		012666792E22B741001FD921 /* CalculateSize.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666412E22B741001FD921 /* CalculateSize.js */; };
+		0126667A2E22B741001FD921 /* TrimStart.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665A2E22B741001FD921 /* TrimStart.js */; };
+		0126667B2E22B741001FD921 /* Wadsworth.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665C2E22B741001FD921 /* Wadsworth.js */; };
+		0126667C2E22B741001FD921 /* FromUnicode.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666472E22B741001FD921 /* FromUnicode.js */; };
+		0126667D2E22B741001FD921 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 012666512E22B741001FD921 /* README.md */; };
+		0126667E2E22B741001FD921 /* regexSearch.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666522E22B741001FD921 /* regexSearch.js */; };
+		0126667F2E22B741001FD921 /* WkbToWkt.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665D2E22B741001FD921 /* WkbToWkt.js */; };
+		012666802E22B741001FD921 /* CreateProjectGlossaryMarkdown.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666442E22B741001FD921 /* CreateProjectGlossaryMarkdown.js */; };
+		012666812E22B741001FD921 /* NewBoopScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666502E22B741001FD921 /* NewBoopScript.js */; };
+		012666822E22B741001FD921 /* WktToWkb.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665E2E22B741001FD921 /* WktToWkb.js */; };
+		012666832E22B741001FD921 /* JsObjectToJSON.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664C2E22B741001FD921 /* JsObjectToJSON.js */; };
+		012666842E22B741001FD921 /* generateHashtag.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666482E22B741001FD921 /* generateHashtag.js */; };
+		012666852E22B741001FD921 /* rgb2hex.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666542E22B741001FD921 /* rgb2hex.js */; };
+		012666862E22B741001FD921 /* JoinLinesWithComma.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664A2E22B741001FD921 /* JoinLinesWithComma.js */; };
+		012666872E22B741001FD921 /* toggleCamelHyphen.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666572E22B741001FD921 /* toggleCamelHyphen.js */; };
+		012666882E22B741001FD921 /* regexSub.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666532E22B741001FD921 /* regexSub.js */; };
+		012666892E22B741001FD921 /* toUnicode.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666582E22B741001FD921 /* toUnicode.js */; };
+		0126668A2E22B741001FD921 /* LineComparer.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664E2E22B741001FD921 /* LineComparer.js */; };
+		0126668B2E22B741001FD921 /* jsToPhp.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664D2E22B741001FD921 /* jsToPhp.js */; };
+		0126668C2E22B741001FD921 /* ShuffleCharacters.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666552E22B741001FD921 /* ShuffleCharacters.js */; };
+		0126668D2E22B741001FD921 /* DIGI2ASCII.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666462E22B741001FD921 /* DIGI2ASCII.js */; };
+		0126668E2E22B741001FD921 /* contrastingColor.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666422E22B741001FD921 /* contrastingColor.js */; };
+		0126668F2E22B741001FD921 /* tsvToJson.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665B2E22B741001FD921 /* tsvToJson.js */; };
+		012666902E22B741001FD921 /* TrimEnd.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666592E22B741001FD921 /* TrimEnd.js */; };
+		012666912E22B741001FD921 /* listToHTMLList.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664F2E22B741001FD921 /* listToHTMLList.js */; };
+		012666922E22B741001FD921 /* TimeToSecond.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666562E22B741001FD921 /* TimeToSecond.js */; };
+		012666932E22B741001FD921 /* JoinLinesWithSpace.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126664B2E22B741001FD921 /* JoinLinesWithSpace.js */; };
+		012666942E22B741001FD921 /* CSVtoJSONheaderless.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666452E22B741001FD921 /* CSVtoJSONheaderless.js */; };
+		012666952E22B741001FD921 /* JoinLines.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666492E22B741001FD921 /* JoinLines.js */; };
+		012666962E22B741001FD921 /* convertToMarkdownTable.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666432E22B741001FD921 /* convertToMarkdownTable.js */; };
+		012666972E22B741001FD921 /* CalculateSize.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666412E22B741001FD921 /* CalculateSize.js */; };
+		012666982E22B741001FD921 /* TrimStart.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665A2E22B741001FD921 /* TrimStart.js */; };
+		012666992E22B741001FD921 /* Wadsworth.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126665C2E22B741001FD921 /* Wadsworth.js */; };
+		0126669A2E22B741001FD921 /* FromUnicode.js in Resources */ = {isa = PBXBuildFile; fileRef = 012666472E22B741001FD921 /* FromUnicode.js */; };
+		0126669B2E22B741001FD921 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 012666512E22B741001FD921 /* README.md */; };
+		0126669D2E22B824001FD921 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126669C2E22B81E001FD921 /* test.js */; };
+		0126669E2E22B824001FD921 /* test.js in Resources */ = {isa = PBXBuildFile; fileRef = 0126669C2E22B81E001FD921 /* test.js */; };
 		2C08A74F24B2269C00E1BD83 /* Script+Require.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BC0DC24AAC518009B8631 /* Script+Require.swift */; };
 		2C0BC0DD24AAC518009B8631 /* Script+Require.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BC0DC24AAC518009B8631 /* Script+Require.swift */; };
 		2C0BC0DE24AAC64F009B8631 /* Script+Require.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0BC0DC24AAC518009B8631 /* Script+Require.swift */; };
@@ -118,6 +180,37 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		012666412E22B741001FD921 /* CalculateSize.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CalculateSize.js; sourceTree = "<group>"; };
+		012666422E22B741001FD921 /* contrastingColor.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = contrastingColor.js; sourceTree = "<group>"; };
+		012666432E22B741001FD921 /* convertToMarkdownTable.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = convertToMarkdownTable.js; sourceTree = "<group>"; };
+		012666442E22B741001FD921 /* CreateProjectGlossaryMarkdown.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CreateProjectGlossaryMarkdown.js; sourceTree = "<group>"; };
+		012666452E22B741001FD921 /* CSVtoJSONheaderless.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = CSVtoJSONheaderless.js; sourceTree = "<group>"; };
+		012666462E22B741001FD921 /* DIGI2ASCII.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = DIGI2ASCII.js; sourceTree = "<group>"; };
+		012666472E22B741001FD921 /* FromUnicode.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = FromUnicode.js; sourceTree = "<group>"; };
+		012666482E22B741001FD921 /* generateHashtag.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = generateHashtag.js; sourceTree = "<group>"; };
+		012666492E22B741001FD921 /* JoinLines.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JoinLines.js; sourceTree = "<group>"; };
+		0126664A2E22B741001FD921 /* JoinLinesWithComma.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JoinLinesWithComma.js; sourceTree = "<group>"; };
+		0126664B2E22B741001FD921 /* JoinLinesWithSpace.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JoinLinesWithSpace.js; sourceTree = "<group>"; };
+		0126664C2E22B741001FD921 /* JsObjectToJSON.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = JsObjectToJSON.js; sourceTree = "<group>"; };
+		0126664D2E22B741001FD921 /* jsToPhp.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jsToPhp.js; sourceTree = "<group>"; };
+		0126664E2E22B741001FD921 /* LineComparer.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = LineComparer.js; sourceTree = "<group>"; };
+		0126664F2E22B741001FD921 /* listToHTMLList.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = listToHTMLList.js; sourceTree = "<group>"; };
+		012666502E22B741001FD921 /* NewBoopScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = NewBoopScript.js; sourceTree = "<group>"; };
+		012666512E22B741001FD921 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		012666522E22B741001FD921 /* regexSearch.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = regexSearch.js; sourceTree = "<group>"; };
+		012666532E22B741001FD921 /* regexSub.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = regexSub.js; sourceTree = "<group>"; };
+		012666542E22B741001FD921 /* rgb2hex.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = rgb2hex.js; sourceTree = "<group>"; };
+		012666552E22B741001FD921 /* ShuffleCharacters.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = ShuffleCharacters.js; sourceTree = "<group>"; };
+		012666562E22B741001FD921 /* TimeToSecond.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = TimeToSecond.js; sourceTree = "<group>"; };
+		012666572E22B741001FD921 /* toggleCamelHyphen.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = toggleCamelHyphen.js; sourceTree = "<group>"; };
+		012666582E22B741001FD921 /* toUnicode.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = toUnicode.js; sourceTree = "<group>"; };
+		012666592E22B741001FD921 /* TrimEnd.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = TrimEnd.js; sourceTree = "<group>"; };
+		0126665A2E22B741001FD921 /* TrimStart.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = TrimStart.js; sourceTree = "<group>"; };
+		0126665B2E22B741001FD921 /* tsvToJson.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = tsvToJson.js; sourceTree = "<group>"; };
+		0126665C2E22B741001FD921 /* Wadsworth.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Wadsworth.js; sourceTree = "<group>"; };
+		0126665D2E22B741001FD921 /* WkbToWkt.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = WkbToWkt.js; sourceTree = "<group>"; };
+		0126665E2E22B741001FD921 /* WktToWkb.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = WktToWkb.js; sourceTree = "<group>"; };
+		0126669C2E22B81E001FD921 /* test.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 		2C0BC0DC24AAC518009B8631 /* Script+Require.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Script+Require.swift"; sourceTree = "<group>"; };
 		2C17C66724271DDA005C911C /* BoopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C17C66924271DDA005C911C /* BoopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoopTests.swift; sourceTree = "<group>"; };
@@ -138,7 +231,6 @@
 		2C2066A121FE47090082570E /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
 		2C2066A321FE47CE0082570E /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 		2C2066A521FE53870082570E /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
-		2C3B003D22E3775300BBD4D0 /* SavannaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SavannaKit.framework; path = ../../../Carthage/Build/Mac/SavannaKit.framework; sourceTree = "<group>"; };
 		2C53B6DF226D404E00DC6861 /* ScriptExecution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptExecution.swift; sourceTree = "<group>"; };
 		2C5770D4249727A600B38470 /* BoopRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BoopRelease.entitlements; sourceTree = "<group>"; };
 		2C5ED41D2357F67200322893 /* Preferences.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Preferences.storyboard; sourceTree = "<group>"; };
@@ -154,7 +246,6 @@
 		2C9761DE2214E46800AFF8CD /* Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Script.swift; sourceTree = "<group>"; };
 		2C9761E02214E68D00AFF8CD /* ScriptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptTableViewCell.swift; sourceTree = "<group>"; };
 		2CA245DB224822EA00586DFD /* ScriptTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptTableView.swift; sourceTree = "<group>"; };
-		2CB9D7F024319BAC00135424 /* Fuse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fuse.framework; path = ../../../Carthage/Build/Mac/Fuse.framework; sourceTree = "<group>"; };
 		2CC211C2236E3141007CECEE /* PreferencesTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesTabViewController.swift; sourceTree = "<group>"; };
 		2CC211C4236FB5C1007CECEE /* ScriptsSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsSettingsViewController.swift; sourceTree = "<group>"; };
 		2CEC93F9249C2D600080B9B8 /* ThemeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettingsViewController.swift; sourceTree = "<group>"; };
@@ -189,6 +280,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0126665F2E22B741001FD921 /* Scripts 2 */ = {
+			isa = PBXGroup;
+			children = (
+				0126669C2E22B81E001FD921 /* test.js */,
+				012666412E22B741001FD921 /* CalculateSize.js */,
+				012666422E22B741001FD921 /* contrastingColor.js */,
+				012666432E22B741001FD921 /* convertToMarkdownTable.js */,
+				012666442E22B741001FD921 /* CreateProjectGlossaryMarkdown.js */,
+				012666452E22B741001FD921 /* CSVtoJSONheaderless.js */,
+				012666462E22B741001FD921 /* DIGI2ASCII.js */,
+				012666472E22B741001FD921 /* FromUnicode.js */,
+				012666482E22B741001FD921 /* generateHashtag.js */,
+				012666492E22B741001FD921 /* JoinLines.js */,
+				0126664A2E22B741001FD921 /* JoinLinesWithComma.js */,
+				0126664B2E22B741001FD921 /* JoinLinesWithSpace.js */,
+				0126664C2E22B741001FD921 /* JsObjectToJSON.js */,
+				0126664D2E22B741001FD921 /* jsToPhp.js */,
+				0126664E2E22B741001FD921 /* LineComparer.js */,
+				0126664F2E22B741001FD921 /* listToHTMLList.js */,
+				012666502E22B741001FD921 /* NewBoopScript.js */,
+				012666512E22B741001FD921 /* README.md */,
+				012666522E22B741001FD921 /* regexSearch.js */,
+				012666532E22B741001FD921 /* regexSub.js */,
+				012666542E22B741001FD921 /* rgb2hex.js */,
+				012666552E22B741001FD921 /* ShuffleCharacters.js */,
+				012666562E22B741001FD921 /* TimeToSecond.js */,
+				012666572E22B741001FD921 /* toggleCamelHyphen.js */,
+				012666582E22B741001FD921 /* toUnicode.js */,
+				012666592E22B741001FD921 /* TrimEnd.js */,
+				0126665A2E22B741001FD921 /* TrimStart.js */,
+				0126665B2E22B741001FD921 /* tsvToJson.js */,
+				0126665C2E22B741001FD921 /* Wadsworth.js */,
+				0126665D2E22B741001FD921 /* WkbToWkt.js */,
+				0126665E2E22B741001FD921 /* WktToWkb.js */,
+			);
+			path = "Scripts 2";
+			sourceTree = "<group>";
+		};
 		2C17C66824271DDA005C911C /* BoopTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,22 +358,13 @@
 				2C20669821FD767E0082570E /* Views */,
 				2C20668D21FD64330082570E /* Editor */,
 				2C20668821FD63AB0082570E /* Controllers */,
-				2C20668321FD62D00082570E /* Frameworks */,
 				2C20667521FD628E0082570E /* AppDelegate.swift */,
 				2C20667721FD62910082570E /* Assets.xcassets */,
 				2C20667C21FD62910082570E /* Info.plist */,
 				2C20667D21FD62910082570E /* Boop.entitlements */,
+				0126665F2E22B741001FD921 /* Scripts 2 */,
 			);
 			path = Boop;
-			sourceTree = "<group>";
-		};
-		2C20668321FD62D00082570E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				2CB9D7F024319BAC00135424 /* Fuse.framework */,
-				2C3B003D22E3775300BBD4D0 /* SavannaKit.framework */,
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		2C20668821FD63AB0082570E /* Controllers */ = {
@@ -410,8 +530,9 @@
 		2C20666A21FD628E0082570E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1640;
 				ORGANIZATIONNAME = OKatBest;
 				TargetAttributes = {
 					2C17C66624271DDA005C911C = {
@@ -461,6 +582,37 @@
 			files = (
 				2C9761D52214E11600AFF8CD /* scripts in Resources */,
 				2C20667821FD62910082570E /* Assets.xcassets in Resources */,
+				012666602E22B741001FD921 /* regexSearch.js in Resources */,
+				012666612E22B741001FD921 /* WkbToWkt.js in Resources */,
+				012666622E22B741001FD921 /* CreateProjectGlossaryMarkdown.js in Resources */,
+				0126669D2E22B824001FD921 /* test.js in Resources */,
+				012666632E22B741001FD921 /* NewBoopScript.js in Resources */,
+				012666642E22B741001FD921 /* WktToWkb.js in Resources */,
+				012666652E22B741001FD921 /* JsObjectToJSON.js in Resources */,
+				012666662E22B741001FD921 /* generateHashtag.js in Resources */,
+				012666672E22B741001FD921 /* rgb2hex.js in Resources */,
+				012666682E22B741001FD921 /* JoinLinesWithComma.js in Resources */,
+				012666692E22B741001FD921 /* toggleCamelHyphen.js in Resources */,
+				0126666A2E22B741001FD921 /* regexSub.js in Resources */,
+				0126666B2E22B741001FD921 /* toUnicode.js in Resources */,
+				0126666C2E22B741001FD921 /* LineComparer.js in Resources */,
+				0126666D2E22B741001FD921 /* jsToPhp.js in Resources */,
+				0126666E2E22B741001FD921 /* ShuffleCharacters.js in Resources */,
+				0126666F2E22B741001FD921 /* DIGI2ASCII.js in Resources */,
+				012666702E22B741001FD921 /* contrastingColor.js in Resources */,
+				012666712E22B741001FD921 /* tsvToJson.js in Resources */,
+				012666722E22B741001FD921 /* TrimEnd.js in Resources */,
+				012666732E22B741001FD921 /* listToHTMLList.js in Resources */,
+				012666742E22B741001FD921 /* TimeToSecond.js in Resources */,
+				012666752E22B741001FD921 /* JoinLinesWithSpace.js in Resources */,
+				012666762E22B741001FD921 /* CSVtoJSONheaderless.js in Resources */,
+				012666772E22B741001FD921 /* JoinLines.js in Resources */,
+				012666782E22B741001FD921 /* convertToMarkdownTable.js in Resources */,
+				012666792E22B741001FD921 /* CalculateSize.js in Resources */,
+				0126667A2E22B741001FD921 /* TrimStart.js in Resources */,
+				0126667B2E22B741001FD921 /* Wadsworth.js in Resources */,
+				0126667C2E22B741001FD921 /* FromUnicode.js in Resources */,
+				0126667D2E22B741001FD921 /* README.md in Resources */,
 				2C20667B21FD62910082570E /* MainMenu.xib in Resources */,
 				2C5ED41E2357F67200322893 /* Preferences.storyboard in Resources */,
 			);
@@ -472,6 +624,37 @@
 			files = (
 				2C60A55524871273006496BA /* scripts in Resources */,
 				2C60A55624871273006496BA /* Assets.xcassets in Resources */,
+				0126667E2E22B741001FD921 /* regexSearch.js in Resources */,
+				0126667F2E22B741001FD921 /* WkbToWkt.js in Resources */,
+				012666802E22B741001FD921 /* CreateProjectGlossaryMarkdown.js in Resources */,
+				0126669E2E22B824001FD921 /* test.js in Resources */,
+				012666812E22B741001FD921 /* NewBoopScript.js in Resources */,
+				012666822E22B741001FD921 /* WktToWkb.js in Resources */,
+				012666832E22B741001FD921 /* JsObjectToJSON.js in Resources */,
+				012666842E22B741001FD921 /* generateHashtag.js in Resources */,
+				012666852E22B741001FD921 /* rgb2hex.js in Resources */,
+				012666862E22B741001FD921 /* JoinLinesWithComma.js in Resources */,
+				012666872E22B741001FD921 /* toggleCamelHyphen.js in Resources */,
+				012666882E22B741001FD921 /* regexSub.js in Resources */,
+				012666892E22B741001FD921 /* toUnicode.js in Resources */,
+				0126668A2E22B741001FD921 /* LineComparer.js in Resources */,
+				0126668B2E22B741001FD921 /* jsToPhp.js in Resources */,
+				0126668C2E22B741001FD921 /* ShuffleCharacters.js in Resources */,
+				0126668D2E22B741001FD921 /* DIGI2ASCII.js in Resources */,
+				0126668E2E22B741001FD921 /* contrastingColor.js in Resources */,
+				0126668F2E22B741001FD921 /* tsvToJson.js in Resources */,
+				012666902E22B741001FD921 /* TrimEnd.js in Resources */,
+				012666912E22B741001FD921 /* listToHTMLList.js in Resources */,
+				012666922E22B741001FD921 /* TimeToSecond.js in Resources */,
+				012666932E22B741001FD921 /* JoinLinesWithSpace.js in Resources */,
+				012666942E22B741001FD921 /* CSVtoJSONheaderless.js in Resources */,
+				012666952E22B741001FD921 /* JoinLines.js in Resources */,
+				012666962E22B741001FD921 /* convertToMarkdownTable.js in Resources */,
+				012666972E22B741001FD921 /* CalculateSize.js in Resources */,
+				012666982E22B741001FD921 /* TrimStart.js in Resources */,
+				012666992E22B741001FD921 /* Wadsworth.js in Resources */,
+				0126669A2E22B741001FD921 /* FromUnicode.js in Resources */,
+				0126669B2E22B741001FD921 /* README.md in Resources */,
 				2C60A55724871273006496BA /* MainMenu.xib in Resources */,
 				2C60A55824871273006496BA /* Preferences.storyboard in Resources */,
 			);
@@ -589,6 +772,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = BoopTests/Info.plist;
@@ -597,6 +781,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.OKatBest.BoopTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -612,6 +797,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = BoopTests/Info.plist;
@@ -620,6 +806,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.OKatBest.BoopTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -631,7 +818,7 @@
 		2C20667E21FD62910082570E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -654,6 +841,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -662,9 +850,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -692,7 +882,7 @@
 		2C20667F21FD62910082570E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -715,6 +905,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -723,9 +914,11 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -752,6 +945,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 14;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RLZ8XBTX7G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -763,7 +957,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.4.0;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = com.OKatBest.Boop;
@@ -782,6 +976,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 14;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -794,7 +989,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.4.0;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = com.okatbest.boop;
@@ -813,6 +1008,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 21;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -824,7 +1020,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.4.0;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-D APPSTORE";
@@ -844,7 +1040,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 21;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RLZ8XBTX7G;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Boop/Frameworks",
@@ -855,7 +1053,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.4.0;
 				OTHER_CODE_SIGN_FLAGS = "--deep";
 				"OTHER_SWIFT_FLAGS[arch=*]" = "-D APPSTORE";
